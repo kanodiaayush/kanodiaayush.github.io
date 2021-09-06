@@ -82,6 +82,10 @@ here: [[https://www.gnu.org/software/emacs/download.html]].
 
 To get the latest version of Org see [[http://orgmode.org]].
 
+#+BEGIN_SRC bash
+make clean && make && python -m http.server --directory=docs
+#+END_SRC
+
 * GitLab User or Group Pages
 To use this project as your user/group website, you will need one
 additional step: just rename your project to ~namespace.gitlab.io~,

@@ -3,24 +3,23 @@
 
 My name is Ayush Kanodia. I'm a PhD student in Computer Science at Stanford
 University, currently in my third year. I work at the intersection of Machine
-Learning and Economics, and I am advised by [[Susan Athey
-[https://athey.people.stanford.edu/]]
+Learning and Economics, and I am advised by [[https://athey.people.stanford.edu/][Susan Athey]].
 
 * Research Interests
 
-I works at the intersection of Economics and Machine Learning, using methods
+I work at the intersection of Economics and Machine Learning, using methods
 from each into the other. My focus areas are machine learning applied
-to Economic structural modeling and Causal Inference, Recommendation Systems and
-Experiment Design. I like to learn about/use Deep Learning
+to Economic structural modeling and Causal Inference (and vice versa), Recommendation Systems and
+Experiment Design. Additionally, I like to learn about/use Deep Learning
 methods, Reinforcement Learning and Language Processing methods towards these
 goals.
 
 * Past Education
-+ Graduation - B.Tech (Computer Science) with Honors and minor in Applied Statistics and Informatics, IIT Bombay, India
++ Graduation - B.Tech (Computer Science) with Honors and Minor in Applied Statistics and Informatics, IIT Bombay, India
 + High School - Don Bosco School Park Circus, Kolkata, India
 
 * Work experience
-+ Researcher, IIM Calcutta
-+ Software Engineer, Google (London)
-+ Research Intern, Microsoft Research (Redmond) (Mobility and Networking Group)
-+ Researcher, IST Austria (Vienna) (Advised by Krishnendu Chatterjee)
++ Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://texplor.com][texplor.com]] in my time there.
++ Software Engineer, Google (London), working on [[https://cloud.google.com/text-to-speech][Text-to-Speech]]
++ Research Intern, Microsoft Research (Redmond) [[https://www.microsoft.com/en-us/research/group/mobility-and-networking-research/#!other-members][Mobility and Networking Group]]
++ Researcher, IST Austria (Vienna) (Advised by [[https://ist.ac.at/en/research/chatterjee-group/][Krishnendu Chatterjee]])
