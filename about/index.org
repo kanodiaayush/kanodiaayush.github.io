@@ -2,8 +2,7 @@
 #+filetags: about
 
 My name is Ayush Kanodia. I'm a PhD student in Computer Science at Stanford
-University, currently in my third year. I work at the intersection of Machine
-Learning and Economics, and I am advised by [[https://athey.people.stanford.edu/][Susan Athey]].
+University, currently in my third year. I mix Machine Learning and Economics. I am lucky to be advised by [[https://athey.people.stanford.edu/][Susan Athey]].
 
 * Research Interests
 
