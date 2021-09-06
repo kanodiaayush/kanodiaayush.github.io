@@ -18,7 +18,7 @@ goals.
 + High School - Don Bosco School Park Circus, Kolkata, India
 
 * Work experience
-+ Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://texplor.com][textplor.com]] in my time there.
++ Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://textplor.com][textplor.com]] in my time there.
 + Software Engineer, Google (London), working on [[https://cloud.google.com/text-to-speech][Text-to-Speech]]
 + Research Intern, Microsoft Research (Redmond) [[https://www.microsoft.com/en-us/research/group/mobility-and-networking-research/#!other-members][Mobility and Networking Group]]
 + Researcher, IST Austria (Vienna) (Advised by [[https://ist.ac.at/en/research/chatterjee-group/][Krishnendu Chatterjee]])
