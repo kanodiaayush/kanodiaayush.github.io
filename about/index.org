@@ -11,11 +11,11 @@ from each into the other. My focus areas are machine learning applied
 to Economic structural modeling and Causal Inference (and vice versa), Recommendation Systems and
 Experiment Design. Additionally, I like to learn about/use Deep Learning
 methods, Reinforcement Learning and Language Processing methods towards these
-goals.
+goals       .
 
 * Past Education
-+ Graduation - B.Tech (Computer Science) with Honors and Minor in Applied Statistics and Informatics, IIT Bombay, India
-+ High School - Don Bosco School Park Circus, Kolkata, India
++ Graduation - B.Tech (Computer Science) with Honors and Minor in Applied Statistics and Informatics, [[https://en.wikipedia.org/wiki/IIT_Bombay][IIT Bombay, India]]
++ High School - [[https://en.wikipedia.org/wiki/Don_Bosco_School,_Park_Circus]Don Bosco School Park Circus]], Kolkata, India
 
 * Work experience
 + Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://textplor.com][textplor.com]] in my time there.

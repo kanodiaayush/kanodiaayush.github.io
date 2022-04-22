@@ -1,6 +1,6 @@
 #+TITLE: Blog Index
 
-- *[[file:regression_formula.org][A note on the regression formula]]*
+- *[[file:regression_formula.org][Regression_formula]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Apr 22, 2022.</p>
 - *[[file:template.org][Sample Post]]*
   #+html: <p class='pubdate'>by John Doe on Feb 05, 2020.</p>
