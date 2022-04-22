@@ -1,4 +1,0 @@
-#+TITLE: Blog Index
-
-- *[[file:template.org][Sample Post]]*
-  #+html: <p class='pubdate'>by John Doe on Feb 05, 2020.</p>

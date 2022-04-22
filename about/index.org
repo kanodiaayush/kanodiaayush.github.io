@@ -15,7 +15,7 @@ goals       .
 
 * Past Education
 + Graduation - B.Tech (Computer Science) with Honors and Minor in Applied Statistics and Informatics, [[https://en.wikipedia.org/wiki/IIT_Bombay][IIT Bombay, India]]
-+ High School - [[https://en.wikipedia.org/wiki/Don_Bosco_School,_Park_Circus]Don Bosco School Park Circus]], Kolkata, India
++ High School - [[https://en.wikipedia.org/wiki/Don_Bosco_School,_Park_Circus][Don Bosco School Park Circus]], Kolkata, India
 
 * Work experience
 + Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://textplor.com][textplor.com]] in my time there.
