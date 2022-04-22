@@ -15,9 +15,12 @@
 #+LaTeX_HEADER: \usemintedstyle{emacs}
 
 * Regression note
-Prove that,
+I was recalling some intuition to understand the regression least squares formula, and I wrote it down in the process
+
+Recall the regression formula,
 
 $(X^T * X)^{-1} X^T y = b$
+
 
 We want $y = X * b$, and $X \in R^{m*n}$.
 
