@@ -1,6 +1,6 @@
 #+TITLE: Blog Index
 
-- *[[file:neural_generalization.org][Neural_generalization]]*
+- *[[file:neural_generalization.org][Generalization of Neural Networks]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Apr 22, 2022.</p>
 - *[[file:regression_formula.org][Regression Formula Intuition]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Apr 22, 2022.</p>
