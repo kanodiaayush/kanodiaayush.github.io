@@ -4,5 +4,3 @@
   #+html: <p class='pubdate'>by Ayush Kanodia on Apr 22, 2022.</p>
 - *[[file:regression_formula.org][Regression Formula Intuition]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Apr 22, 2022.</p>
-- *[[file:template.org][Sample Post]]*
-  #+html: <p class='pubdate'>by John Doe on Feb 05, 2020.</p>
