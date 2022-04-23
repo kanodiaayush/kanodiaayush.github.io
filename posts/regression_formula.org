@@ -1,4 +1,4 @@
-#+title: Regression_formula
+#+title: Regression Formula Intuition
 #+EMAIL: kanodiaayush@gmail.com
 #+OPTIONS: email:t
 #+LATEX_CLASS: article

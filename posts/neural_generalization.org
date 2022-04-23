@@ -1,0 +1,3 @@
+#+title: Neural_generalization
+
+*[[https://towardsdatascience.com/how-do-relu-neural-networks-approximate-any-continuous-function-f59ca3cf2c39][Medium Post on the Generalization of Neural Networks]]*
