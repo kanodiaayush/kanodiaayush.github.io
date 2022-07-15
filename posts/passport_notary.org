@@ -1,6 +1,5 @@
 #+title: Passport Renewal and Notary Note
 #+author: Ayush Kanodia
-#+title: Passport Renewal and Notary Note
 #+EMAIL: kanodiaayush@gmail.com
 #+date:<2022-07-14 Thu>
 

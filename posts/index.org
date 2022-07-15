@@ -1,6 +1,6 @@
 #+TITLE: Blog Index
 
-- *[[file:passport_notary.org][Passport Renewal and Notary Note Passport Renewal and Notary Note]]*
+- *[[file:passport_notary.org][Passport Renewal and Notary Note]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Jul 14, 2022.</p>
 - *[[file:regression_formula.org][Regression Formula Intuition]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Apr 22, 2022.</p>
