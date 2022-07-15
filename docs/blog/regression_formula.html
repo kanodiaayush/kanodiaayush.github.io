@@ -85,12 +85,13 @@
 <main id="content" class="content">
 <header>
 <h1 class="title">Regression Formula Intuition</h1>
+<p class="subtitle" role="doc-subtitle">Published on Apr 22, 2022 by Ayush Kanodia.</p>
 </header>
-<section id="outline-container-org4828111" class="outline-2">
-<h2 id="org4828111">Regression note</h2>
-<div class="outline-text-2" id="text-org4828111">
+<section id="outline-container-org2fdd4f8" class="outline-2">
+<h2 id="org2fdd4f8">Regression note</h2>
+<div class="outline-text-2" id="text-org2fdd4f8">
 <p>
-I was recalling some intuition to understand the regression least squares formula, and I wrote it down in the process
+I was recalling some intuition to understand the regression least squares formula, and I wrote it down in the process.
 </p>
 
 <p>
@@ -107,7 +108,7 @@ We want \(y = X * b\), and \(X \in R^{m*n}\).
 </p>
 
 <p>
-We know that this system has m equations and n unknowns
+We know that this system has m equations and n unknowns, and
 </p>
 
 <ol class="org-ol">
@@ -118,8 +119,7 @@ We know that this system has m equations and n unknowns
 
 <p>
 Now if we look at the above matrix equation; it is telling us that \(y\) is a linear combination of the columns of \(X\), where the linear combination is given by the coefficients \(b\).
-Interpreting a column of \(X\): a column of \(X\) is the &rsquo;distribution&rsquo; of covariate associated with that column as given by all data points. This is in the space \(R^m\)
-Therefore, you can interpret the attempt to solve this equation as finding the best linear combination of the columns of \(X\) which gives \(Y\). Now; these columns each lie in an \(m\) dimensional space and there are \(n\) of these columns, where we have \(n << m\) (typically) for regression. Therefore, the set \(S = space(col(X))\) spans a subspace of \(R^m\) (recall that you need at least m vectors to form a basis spanning \(R^m\)). Typically, y will NOT belong to \(S\). In some sense, we are finding bs such that we go as close to \(y\) as our subspace allows.
+Interpreting a column of \(X\): a column of \(X\) is the &rsquo;distribution&rsquo; of covariate associated with that column as given by all data points. This is in the space \(R^m\). Therefore, you can interpret the attempt to solve this equation as finding the best linear combination of the columns of \(X\) which gives \(Y\). Now; these columns each lie in an \(m\) dimensional space and there are \(n\) of these columns, where we have \(n << m\) (typically) for regression. Therefore, the set \(S = space(col(X))\) spans a subspace of \(R^m\) (recall that you need at least m vectors to form a basis spanning \(R^m\)). Typically, y will NOT belong to \(S\). In some sense, we are finding bs such that we go as close to \(y\) as our subspace allows.
 Recall the notion of projections from Linear Algebra. We try to project \(y\) on to \(S\). Recall how to do this.
 \(y = X * b\)
 </p>

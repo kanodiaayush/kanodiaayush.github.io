@@ -1,0 +1,11 @@
+#+title: Passport Renewal and Notary Note
+#+author: Ayush Kanodia
+#+title: Passport Renewal and Notary Note
+#+EMAIL: kanodiaayush@gmail.com
+#+date:<2022-07-14 Thu>
+
+These are some notes from my passport renewal in early 2021; these may be helpful to other Indian students at Stanford (perhaps other nationalities, other universities etc too)
+
+1. Most banks notarize your documents for free. SFCU (Stanford Federal Credit Union), my bank, did it for me.
+2. SFCU say they can’t verify your documents (maybe to put us off, but they were very helpful otherwise in this process), which they fundamentally can’t because we’re not American (or something). However they can verify your statement of their authenticity when your produce their originals (and they help you make copies there) which is only what is needed for the application anyway. So SFCU notary (similar notaries) work.
+3. The docs list didn’t list i20 as required at my time (I was on the F1 visa). They asked me for that separately (also notarized) so please send that if (or other visa docs, whatever applies). Worst case they don’t need it.

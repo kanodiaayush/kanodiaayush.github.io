@@ -1,3 +1,7 @@
+#+author: Keshav Agrawal and Ayush Kanodia
 #+title: Generalization of Neural Networks
+#+date:<2021-02-25 Tue>
 
-*[[https://towardsdatascience.com/how-do-relu-neural-networks-approximate-any-continuous-function-f59ca3cf2c39][Medium Post on the Generalization of Neural Networks]]*
+*[[https://towardsdatascience.com/how-do-relu-neural-networks-approximate-any-continuous-function-f59ca3cf2c39][Click here for the Medium Post on the Generalization of Neural Networks]]*
+
+This is a blog post published jointly with [[https://www.linkedin.com/in/kasince2k/][Keshav Agrawal]].
