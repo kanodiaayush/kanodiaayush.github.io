@@ -1,24 +1,35 @@
 #+title: About
 #+filetags: about
 
-My name is Ayush Kanodia. I'm a PhD student in Computer Science at Stanford
-University, currently in my third year. I mix Machine Learning and Economics. I am lucky to be advised by [[https://athey.people.stanford.edu/][Susan Athey]].
+My name is Ayush Kanodia. I'm a PhD student in Computer Science and MA student in Economics at Stanford University, currently in my fifth year. I mix Machine Learning and Economics. I am lucky to be advised by [[https://athey.people.stanford.edu/][Susan Athey]].
 
 * Research Interests
 
 I work at the intersection of Economics and Machine Learning, using methods
 from each into the other. My focus areas are machine learning applied
-to Economic structural modeling and Causal Inference (and vice versa), Recommendation Systems and
-Experiment Design. Additionally, I like to learn about/use Deep Learning
+to economic structural modeling and causal inference (and vice versa), and recommendation systems.
+Additionally, I like to learn about/use Deep Learning
 methods, Reinforcement Learning and Language Processing methods towards these
-goals       .
+goals.
+
+* Research
+
+1. [[https://arxiv.org/abs/2304.01906][Torch-Choice: A PyTorch Package for Large-Scale Choice Modelling with Python]], Du, Tianyu; Kanodia, Ayush; Athey, Susan, arXiv preprint arXiv:2304.01906, 2023
+2. [[https://arxiv.org/abs/2208.13940][Personalized Recommendations in EdTech: Evidence from a Randomized Controlled Trial]], Agrawal, Keshav; Athey, Susan; Kanodia, Ayush; Palikot, Emil, arXiv preprint arXiv:2208.13940, 2022
+3. [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3649342][Welfare effects of personalized rankings]], Donnelly, Robert; Kanodia, Ayush; Morozov, Ilya, Available at SSRN 3649342, 2022
+4. [[https://arxiv.org/abs/2202.08370][Learning Transferrable Representations of Career Trajectories for Economic Prediction]], Vafa, Keyon; Palikot, Emil; Du, Tianyu; Kanodia, Ayush; Athey, Susan; Blei, David M, arXiv preprint arXiv:2202.08370, 2022
+5. [[https://joss.theoj.org/papers/10.21105/joss.02232][policytree: Policy learning via doubly robust empirical welfare maximization over trees]], Sverdrup, Erik; Kanodia, Ayush; Zhou, Zhengyuan; Athey, Susan; Wager, Stefan, Journal of Open Source Software, vol. 5, no. 50, pp. 2232, 2020
+6. [[https://www.sciencedirect.com/science/article/pii/S0004370215000717][Optimal cost almost-sure reachability in POMDPs]], Chatterjee, Krishnendu; Chmelik, Martin; Gupta, Raghav; Kanodia, Ayush, Artificial Intelligence, vol. 234, pp. 26-48, 2016
+7. [[https://ieeexplore.ieee.org/abstract/document/7138971][Qualitative analysis of POMDPs with temporal logic specifications for robotics applications]], Chatterjee, Krishnendu; Chmelik, Martin; Gupta, Raghav; Kanodia, Ayush, 2015 IEEE International Conference on Robotics and Automation (ICRA), pp. 325-330, 2015
+8. [[https://royalsocietypublishing.org/doi/full/10.1098/rspb.2015.1041][Biological auctions with multiple rewards]], Reiter, Johannes G; Kanodia, Ayush; Gupta, Raghav; Nowak, Martin A; Chatterjee, Krishnendu, Proceedings of the Royal Society B: Biological Sciences, vol. 282, no. 1812, pp. 20151041, 2015
+9. [[https://indianeconomicreview.springeropen.com/articles/10.1007/s41775-021-00110-y][Deciphering Indian inflationary expectations through text mining: an exploratory approach]], Banerjee, Ashok; Kanodia, Ayush; Ray, Partha, Indian Economic Review, vol. 56, pp. 49-66, 2021
 
 * Past Education
 + Graduation - B.Tech (Computer Science) with Honors and Minor in Applied Statistics and Informatics, [[https://en.wikipedia.org/wiki/IIT_Bombay][IIT Bombay, India]]
 + High School - [[https://en.wikipedia.org/wiki/Don_Bosco_School,_Park_Circus][Don Bosco School Park Circus]], Kolkata, India
 
 * Work experience
-+ Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://textplor.com][textplor.com]] in my time there.
 + Software Engineer, Google (London), working on [[https://cloud.google.com/text-to-speech][Text-to-Speech]]
++ Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://textplor.com][textplor.com]] in my time there.
 + Research Intern, Microsoft Research (Redmond) [[https://www.microsoft.com/en-us/research/group/mobility-and-networking-research/#!other-members][Mobility and Networking Group]]
 + Researcher, IST Austria (Vienna) (Advised by [[https://ist.ac.at/en/research/chatterjee-group/][Krishnendu Chatterjee]])

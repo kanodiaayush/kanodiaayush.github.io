@@ -1,5 +1,5 @@
 #+author: Ayush Kanodia
-#+title: Coffee Fun
+#+title: The World Barista Championships are fun!
 #+EMAIL: kanodiaayush@gmail.com
 #+date:<2023-04-23 Sun>
 
