@@ -1,6 +1,6 @@
 #+TITLE: Blog Index
 
-- *[[file:world_barista_championships.org][Coffee Fun]]*
+- *[[file:world_barista_championships.org][The World Barista Championships are fun!]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Apr 23, 2023.</p>
 - *[[file:passport_notary.org][Passport Renewal and Notary Note]]*
   #+html: <p class='pubdate'>by Ayush Kanodia on Jul 14, 2022.</p>

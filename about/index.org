@@ -1,7 +1,7 @@
 #+title: About
 #+filetags: about
 
-My name is Ayush Kanodia. I'm a PhD student in Computer Science and MA student in Economics at Stanford University, currently in my fifth year. I mix Machine Learning and Economics. I am lucky to be advised by [[https://athey.people.stanford.edu/][Susan Athey]].
+My name is Ayush Kanodia. I'm a senior PhD candidate in Computer Science and MA candidate in Economics at Stanford University, currently in my fifth year. I mix Machine Learning and Economics. I am lucky to be advised by [[https://athey.people.stanford.edu/][Susan Athey]], and to be co advised by [[https://cs.stanford.edu/people/ebrun/][Emma Brunskill]].
 
 * Research Interests
 
@@ -24,12 +24,14 @@ goals.
 8. Biological auctions with multiple rewards, Reiter, Johannes G; Kanodia, Ayush; Gupta, Raghav; Nowak, Martin A; Chatterjee, Krishnendu, Proceedings of the Royal Society B: Biological Sciences, vol. 282, no. 1812, pp. 20151041, 2015
 9. Deciphering Indian inflationary expectations through text mining: an exploratory approach, Banerjee, Ashok; Kanodia, Ayush; Ray, Partha, Indian Economic Review, vol. 56, pp. 49-66, 2021
 
+* Prior experience
+In reverse chronological order
++ Software Engineer, Google (London), working on [[https://cloud.google.com/text-to-speech][Text-to-Speech]]
++ Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://textplor.com][textplor.com]] in my time there. I was advised by Partha Ray and Ashok Banerjee.
++ UG Thesis, IIT Bombay, where I worked with [[https://www.cse.iitb.ac.in/~soumen/][Soumen Chakrabarti]] and [[https://www.cse.iitb.ac.in/~sudarsha/][S Sudarshan]].
++ Research Intern, Microsoft Research (Redmond) [[https://www.microsoft.com/en-us/research/group/mobility-and-networking-research/#!other-members][Mobility and Networking Group]], advised by [[https://stefan.t8k2.com/][Stefan Saroiu]].
++ Researcher, IST Austria (Vienna), advised by [[https://ist.ac.at/en/research/chatterjee-group/][Krishnendu Chatterjee]].
+
 * Past Education
 + Graduation - B.Tech (Computer Science) with Honors and Minor in Applied Statistics and Informatics, [[https://en.wikipedia.org/wiki/IIT_Bombay][IIT Bombay, India]]
 + High School - [[https://en.wikipedia.org/wiki/Don_Bosco_School,_Park_Circus][Don Bosco School Park Circus]], Kolkata, India
-
-* Work experience
-+ Software Engineer, Google (London), working on [[https://cloud.google.com/text-to-speech][Text-to-Speech]]
-+ Researcher, IIM Calcutta, where I worked on applying Machine Learning to Macroeconomics and Finance. I worked on [[https://link.springer.com/article/10.1007/s41775-021-00106-9][Estimating Inflation using News Articles]] and we built [[https://textplor.com][textplor.com]] in my time there. I was advised by Partha Ray and Ashok Banerjee.
-+ Research Intern, Microsoft Research (Redmond) [[https://www.microsoft.com/en-us/research/group/mobility-and-networking-research/#!other-members][Mobility and Networking Group]], advised by [[https://stefan.t8k2.com/][Stefan Saroiu]].
-+ Researcher, IST Austria (Vienna), advised by [[https://ist.ac.at/en/research/chatterjee-group/][Krishnendu Chatterjee]].
