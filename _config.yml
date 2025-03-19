@@ -21,7 +21,7 @@ title                    : "Ayush Kanodia"
 title_separator          : "-"
 subtitle                 : # site tagline displayed below title
 name                     : "Ayush Kanodia"
-description              : "Senior PhD candidate in Computer Science and MA candidate in Economics at Stanford University, working at the intersection of Machine Learning and Economics."
+description              : "Building a stealth AI startup focused on improving knowledge acquisition experiences. PhD Computer Science, MA Economics from Stanford University. B Tech Computer Science from IIT Bombay."
 url                      : "https://kanodiaayush.github.io"
 baseurl                  : ""
 repository               : "kanodiaayush/kanodiaayush.github.io"
@@ -67,7 +67,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "Ayush Kanodia"
   avatar           : "/assets/images/kanodiaayush.png"
-  bio              : "Senior PhD candidate in Computer Science and MA candidate in Economics at Stanford University"
-  location         : "Stanford University"
+  bio              : "Founder, Stealth Startup building an AI augmented knowledge acquisition experience. PhD Computer Science, MA Economics from Stanford University. B Tech Computer Science IIT Bombay."
+  location         : "San Francisco Bay Area"
   email            :
   links:
     - label: "GitHub"
@@ -124,7 +124,7 @@ author:
       url: "https://github.com/kanodiaayush"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/ayushkanodia"
+      url: "https://linkedin.com/in/kanodiaayush"
 
 # Site Footer
 footer:
@@ -134,7 +134,7 @@ footer:
       url: "https://github.com/kanodiaayush"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/ayushkanodia"
+      url: "https://linkedin.com/in/kanodiaayush"
 
 
 # Reading Files

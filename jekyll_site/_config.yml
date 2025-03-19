@@ -1,0 +1,49 @@
+title: Ayush Kanodia
+email: 
+description: >-
+  Senior PhD candidate in Computer Science and MA candidate in Economics at Stanford University, 
+  working at the intersection of Machine Learning and Economics.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kanodiaayush.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username: kanodiaayush
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimalist
+color-scheme: sunrise
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+
+# Defaults for posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Social links
+social_links:
+  github: kanodiaayush
+  linkedin: kanodiaayush 
+  twitter: ayushkanodia
