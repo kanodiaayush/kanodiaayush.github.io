@@ -39,12 +39,37 @@ jobs:
           which chromedriver
           cd loconotion
           # Run Loconotion from its root directory with the site.toml file
-          python loconotion "../pages_repo/site.toml" --chromedriver $(which chromedriver)
+          python loconotion "../pages_repo/site.toml" --chromedriver $(which chromedriver) --verbose
+          
+          # Debug: Check what directories were created
+          echo "Checking generated directories:"
+          ls -la
+          
+          if [ -d "dist" ]; then
+            echo "Content of dist directory:"
+            ls -la dist/
+          fi
+          
+          # Copy the dist directory to pages_repo for deployment
+          if [ -d "dist" ]; then
+            cp -r dist/* ../pages_repo/
+            echo "Copied dist content to pages_repo directory"
+          fi
+          
+          cd ..
+          echo "Files in pages_repo directory:"
+          ls -la pages_repo
       - name: Push to GitHub pages
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          GIT_DEPLOY_DIR=../dist/site \
+          
+          # Debug: Check directories before running deploy.sh
+          echo "Current directory: $(pwd)"
+          ls -la
+          
+          # Using the correct path to the generated site
+          GIT_DEPLOY_DIR=site \
           GIT_DEPLOY_BRANCH=gh-pages \
           GIT_DEPLOY_REPO="https://${{ github.token }}@github.com/${{ github.repository }}.git" ./deploy.sh
         working-directory: pages_repo
