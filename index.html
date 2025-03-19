@@ -3,75 +3,41 @@
 <head>
   <title>Ayush Kanodia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Direct redirect to Notion website -->
+  <meta http-equiv="refresh" content="0; url=https://unequaled-ethernet-561.notion.site/Personal-Website-1bb087a74da9809abd4bf32e6b395dfe">
+  
   <style>
     body, html { 
       margin: 0; 
       padding: 0; 
       height: 100%; 
-      overflow: hidden; 
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
     
-    iframe { 
-      width: 100%; 
-      height: 100%; 
-      border: none; 
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-    
-    .loading {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    .container {
+      max-width: 600px;
+      margin: 100px auto;
+      padding: 20px;
       text-align: center;
+      line-height: 1.6;
     }
     
-    .loading p {
-      margin-top: 20px;
-      color: #333;
+    a {
+      color: #0366d6;
+      text-decoration: none;
     }
     
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    
-    .spinner {
-      border: 5px solid #f3f3f3;
-      border-top: 5px solid #333;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      animation: spin 1s linear infinite;
-      margin: 0 auto;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
-  
-  <!-- Add favicon if you have one -->
-  <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
 </head>
 <body>
-  <!-- Loading indicator shown while Notion loads -->
-  <div class="loading" id="loading">
-    <div class="spinner"></div>
-    <p>Loading Ayush's Workspace...</p>
+  <div class="container">
+    <h1>Ayush Kanodia</h1>
+    <p>Redirecting to my Notion website...</p>
+    <p>If you are not redirected automatically, <a href="https://unequaled-ethernet-561.notion.site/Personal-Website-1bb087a74da9809abd4bf32e6b395dfe">click here</a>.</p>
   </div>
-  
-  <!-- The iframe containing your Notion page -->
-  <iframe 
-    src="https://unequaled-ethernet-561.notion.site/Personal-Website-1bb087a74da9809abd4bf32e6b395dfe" 
-    id="notion-frame"
-    onload="document.getElementById('loading').style.display='none';"
-  ></iframe>
-  
-  <!-- Simple analytics script (optional) -->
-  <script>
-    // You can add Google Analytics or other tracking here if desired
-  </script>
 </body>
 </html>
