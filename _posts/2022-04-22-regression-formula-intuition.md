@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Regression Formula Intuition"
 date: 2022-04-22
 author: Ayush Kanodia
 categories: math statistics
 usemathjax: true
+author_profile: true
+toc: true
 ---
 
 # Regression note

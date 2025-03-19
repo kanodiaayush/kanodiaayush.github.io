@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: single
 title: "The World Barista Championships are fun!"
 date: 2023-04-23
 author: Ayush Kanodia
 categories: coffee hobbies
+author_profile: true
+toc: false
 ---
 
 I drink coffee and go to some lengths to try to make good coffee. Today I went down a bit of a rabbit hole. I enjoy watching James Hoffman's videos on coffee, and I started with wanting to understand James Hoffman's background, to see his education etc. 
