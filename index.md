@@ -3,10 +3,9 @@ layout: home
 author_profile: true
 ---
 
-# Hello!
+Hello!
 
-I'm Ayush Kanodia, working on a stealth AI startup focused on building compelling product experiences using AI and large recommendation systems.
-I'm working on a stealth AI startup focused on building compelling product experiences using AI and large recommendation systems.
+I'm Ayush Kanodia, and I cofounded and am working on a stealth startup building an AI augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.
 
 Prior to this, I was Co-Founder and CTO at MoveUp AI, where I built career development agents leveraging my background in ML and economics.
 
