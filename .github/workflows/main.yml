@@ -37,8 +37,9 @@ jobs:
         run: |
           which chrome
           which chromedriver
+          ls -la loconotion
           cd loconotion
-          python loconotion.py --chromedriver $(which chromedriver) "../pages_repo/site.toml"
+          python -m loconotion --chromedriver $(which chromedriver) "../pages_repo/site.toml"
       - name: Push to GitHub pages
         run: |
           git config --global user.name "github-actions[bot]"
