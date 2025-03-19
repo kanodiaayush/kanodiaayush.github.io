@@ -1,0 +1,104 @@
+<!-- Sunrise color scheme CSS -->
+<style>
+  :root {
+    --main-bg-color: #fcf9f3;
+    --header-bg-color: #fcf1e3;
+    --text-color: #2f2f2f;
+    --link-color: #e67e22;
+    --link-hover-color: #d35400;
+    --border-color: #f0dbc7;
+    --code-bg-color: #f9f2ea;
+    --blockquote-border-color: #f39c12;
+    --table-border-color: #f0dbc7;
+    --table-header-bg-color: #fcf1e3;
+    --button-bg-color: #e67e22;
+    --button-text-color: white;
+  }
+  
+  body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+  }
+  
+  header {
+    background-color: var(--header-bg-color);
+    border-right: 1px solid var(--border-color);
+  }
+  
+  blockquote {
+    border-left: 4px solid var(--blockquote-border-color);
+    padding-left: 15px;
+  }
+  
+  code, pre {
+    background-color: var(--code-bg-color);
+  }
+  
+  hr {
+    border-color: var(--border-color);
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid var(--table-border-color);
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: var(--table-header-bg-color);
+  }
+  
+  .navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .navigation li {
+    margin-bottom: 10px;
+  }
+  
+  .post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+  }
+  
+  .post-meta {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .post-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .post-list li {
+    margin-bottom: 30px;
+  }
+  
+  .post-list h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .view-all-posts {
+    margin-top: 30px;
+  }
+</style>
+
+<!-- Favicon and custom head links go here --> 
