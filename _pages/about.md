@@ -7,7 +7,7 @@ I cofounded and am working on a stealth startup building an AI augmented knowled
 
 Prior to this, I was Co-Founder and CTO at MoveUp AI (Jan 2024 - Dec 2024), where I conceptualized and built career development agents.
 
-My name is Ayush Kanodia. I'm a recent PhD graduate in Computer Science and MA graduate in Economics from Stanford University. I mix Machine Learning and Economics. During my PhD, I was lucky to be advised by [Susan Athey](https://athey.people.stanford.edu/), and to be co advised by [Emma Brunskill](https://cs.stanford.edu/people/ebrun/). For more information about my research and a list of my publications, please visit the [Research](/research/) page.
+I'm a recent PhD graduate in Computer Science and MA graduate in Economics from Stanford University. I mix Machine Learning and Economics. During my PhD, I was lucky to be advised by [Susan Athey](https://athey.people.stanford.edu/), and to be co advised by [Emma Brunskill](https://cs.stanford.edu/people/ebrun/). For more information about my research and a list of my publications, please visit the [Research](/research/) page.
 
 ## Prior experience
 
