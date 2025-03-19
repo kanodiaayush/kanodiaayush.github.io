@@ -24,33 +24,35 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="profile-image" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
 
+        <nav>
+          <ul class="navigation">
+            <li><a href="{{ "/" | absolute_url }}">Home</a></li>
+            <li><a href="{{ "/blog" | absolute_url }}">Blog</a></li>
+          </ul>
+        </nav>
+        
+        {% if site.social_links %}
+        <div class="social-links">
+          {% if site.social_links.github %}
+          <a href="https://github.com/{{ site.social_links.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+          {% endif %}
+          {% if site.social_links.linkedin %}
+          <a href="https://linkedin.com/in/{{ site.social_links.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          {% endif %}
+        </div>
+        {% endif %}
+        
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-        <ul class="navigation">
-          <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-          <li><a href="{{ "/blog" | absolute_url }}">Blog</a></li>
-        </ul>
-        
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-        
-        {% if site.social_links %}
-        <ul class="social">
-          {% if site.social_links.github %}
-          <li><a href="https://github.com/{{ site.social_links.github }}">GitHub</a></li>
-          {% endif %}
-          {% if site.social_links.linkedin %}
-          <li><a href="https://linkedin.com/in/{{ site.social_links.linkedin }}">LinkedIn</a></li>
-          {% endif %}
-        </ul>
         {% endif %}
       </header>
       

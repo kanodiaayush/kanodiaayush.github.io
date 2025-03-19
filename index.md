@@ -3,7 +3,7 @@ layout: home
 title: About
 ---
 
-![Ayush Kanodia](/assets/images/kanodiaayush.png)
+<img src="/assets/images/kanodiaayush.png" alt="Ayush Kanodia" class="profile-image-main">
 
 My name is Ayush Kanodia. I'm a senior PhD candidate in Computer Science and MA candidate in Economics at Stanford University, currently in my fifth year. I mix Machine Learning and Economics. I am lucky to be advised by [Susan Athey](https://athey.people.stanford.edu/), and to be co advised by [Emma Brunskill](https://cs.stanford.edu/people/ebrun/).
 

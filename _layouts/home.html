@@ -8,14 +8,16 @@ layout: default
   <h2>Latest Posts</h2>
   
   <ul class="post-list">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:3 %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
         {% if post.description %}
           <p>{{ post.description }}</p>
+        {% else %}
+          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
         {% endif %}
       </li>
     {% endfor %}

@@ -18,70 +18,116 @@
   body {
     background-color: var(--main-bg-color);
     color: var(--text-color);
+    line-height: 1.6;
   }
   
   a {
     color: var(--link-color);
+    text-decoration: none;
   }
   
   a:hover {
     color: var(--link-hover-color);
+    text-decoration: underline;
   }
   
   header {
     background-color: var(--header-bg-color);
     border-right: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    text-align: center;
   }
   
-  blockquote {
-    border-left: 4px solid var(--blockquote-border-color);
-    padding-left: 15px;
+  header h1 {
+    margin-bottom: 15px;
   }
   
-  code, pre {
-    background-color: var(--code-bg-color);
+  .site-description {
+    color: #555;
+    margin-bottom: 20px;
   }
   
-  hr {
-    border-color: var(--border-color);
-  }
-  
-  table {
-    border-collapse: collapse;
-  }
-  
-  table th, table td {
-    border: 1px solid var(--table-border-color);
-    padding: 8px;
-  }
-  
-  table th {
-    background-color: var(--table-header-bg-color);
+  .profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+    border: 4px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   
   .navigation {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   
   .navigation li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
-  .post-navigation {
+  .navigation a {
+    display: block;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .navigation a:hover {
+    background-color: rgba(230, 126, 34, 0.1);
+    text-decoration: none;
+  }
+  
+  .social-links {
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid var(--border-color);
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
   }
   
-  .post-meta {
-    color: #777;
-    margin-bottom: 20px;
+  .social-links a {
+    padding: 8px 12px;
+    background-color: var(--link-color);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
   }
   
+  .social-links a:hover {
+    background-color: var(--link-hover-color);
+    text-decoration: none;
+  }
+  
+  blockquote {
+    border-left: 4px solid var(--blockquote-border-color);
+    padding-left: 15px;
+    margin-left: 0;
+    color: #555;
+  }
+  
+  code, pre {
+    background-color: var(--code-bg-color);
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-family: monospace;
+  }
+  
+  pre {
+    padding: 15px;
+    overflow-x: auto;
+  }
+  
+  hr {
+    border-color: var(--border-color);
+    margin: 30px 0;
+  }
+  
+  /* Blog listings */
   .post-list {
     list-style-type: none;
     padding: 0;
@@ -89,6 +135,8 @@
   
   .post-list li {
     margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
   }
   
   .post-list h3 {
@@ -96,8 +144,66 @@
     margin-bottom: 10px;
   }
   
+  .post-meta {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  /* Home page content */
+  .home {
+    max-width: 800px;
+  }
+  
+  .home img.profile-image-main {
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+    display: block;
+    border: 4px solid white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+  
   .view-all-posts {
     margin-top: 30px;
+    text-align: center;
+  }
+  
+  .view-all-posts a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: var(--link-color);
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .view-all-posts a:hover {
+    background-color: var(--link-hover-color);
+    text-decoration: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    header {
+      border-right: none;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+    
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .profile-image {
+      max-width: 150px;
+    }
+    
+    .home img.profile-image-main {
+      max-width: 200px;
+    }
   }
 </style>
 
