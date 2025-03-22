@@ -3,25 +3,15 @@ permalink: /about/
 title: "About"
 ---
 
-I cofounded and am working on a stealth startup building an AI augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.
+I think of myself as a problem solver, engineer, scientist and economist (maybe in that order; engineer took second place from scientist thanks to the Large Language Models revolution).
 
-Prior to this, I was Co-Founder and CTO at MoveUp AI (Jan 2024 - Dec 2024), where I conceptualized and built career development agents.
+## Interests
 
-I'm a recent PhD graduate in Computer Science and MA graduate in Economics from Stanford University. I mix Machine Learning and Economics. During my PhD, I was lucky to be advised by [Susan Athey](https://athey.people.stanford.edu/), and to be co advised by [Emma Brunskill](https://cs.stanford.edu/people/ebrun/). For more information about my research and a list of my publications, please visit the [Research](/research/) page.
-
-## Prior experience
-
-In reverse chronological order:
-
-- Co-Founder and CTO, MoveUp AI (Jan 2024 - Dec 2024), conceptualized and developed an AI-agent first career development product and technology
-- Software Engineer, Google (London), working on [Text-to-Speech](https://cloud.google.com/text-to-speech) (Sep 2015 - Sep 2016)
-- Research Intern, Microsoft Research (Redmond) [Mobility and Networking Group](https://www.microsoft.com/en-us/research/group/mobility-and-networking-research/#!other-members), advised by [Stefan Saroiu](https://stefan.t8k2.com/) (May 2014 - Jul 2014)
-- Researcher, IST Austria (Vienna), advised by [Krishnendu Chatterjee](https://ist.ac.at/en/research/chatterjee-group/) (May 2013 - Jul 2013)
-- UG Thesis, IIT Bombay, where I worked with [Soumen Chakrabarti](https://www.cse.iitb.ac.in/~soumen/) and [S Sudarshan](https://www.cse.iitb.ac.in/~sudarsha/).
-
-## Past Education
-
-- PhD - Computer Science, [Stanford University](https://www.stanford.edu/), advised by [Susan Athey](https://athey.people.stanford.edu/) and [Emma Brunskill](https://cs.stanford.edu/people/ebrun/)
-- MA - Economics, earned concurrently at Stanford
-- Graduation - B.Tech (Computer Science) with Honors and Minor in Applied Statistics and Informatics, [IIT Bombay, India](https://en.wikipedia.org/wiki/IIT_Bombay)
-- High School - [Don Bosco School Park Circus](https://en.wikipedia.org/wiki/Don_Bosco_School,_Park_Circus), Kolkata, India 
+1. Coffee - I go from beverage to beverage everyday. I also really like Darjeeling Tea, and more recently Match Tea (although not quite as much) and Non Alcoholic Beer (Athletic Brewing is so good!)
+2. Music - Indian Classical Fused with (Classic) Rock is my favorite genre. I play the keyboard and sing a little. One day I hope to play the Electric Guitar, especially over Indian Classical music. Here are two playlists I like (there is some overlap between them)
+  - [Spotify](https://open.spotify.com/playlist/2Z8j28kqLcXFRrVYml1XcK?si=12afe20820f04e93)
+  - [Youtube Music](https://music.youtube.com/playlist?list=PLcCa4KMMSjL3fzfeljQ41k0CW0oJmOihH&si=CAMRguxYmHTyP7Nf)
+3. Squash - I play squash regularly and also like tennis/badminton/table tennis
+4. Watching Sports - I watch a lot of sports, (test match) cricket, tennis, squash, f1 are probably top of the list.
+5. Efficient Cooking - I like to say that if you want to be a good cook, you should do a PhD in the US (as an international student). You won't have too much money and only some time, so you end up being efficient.
+6. Reading - non fiction books/blogs/articles; my favourite topics are technology, history, economics, business and startups.

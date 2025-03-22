@@ -1,0 +1,22 @@
+/* Reduce main text font weight */
+.page__content p {
+  font-weight: 300;
+}
+
+.page__content li {
+  font-weight: 300;
+}
+
+body {
+  font-weight: 300;
+}
+
+/* Adjust sidebar font weight */
+.author__bio {
+  font-weight: 300;
+}
+
+/* Keep headings bold but slightly lighter */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+} 

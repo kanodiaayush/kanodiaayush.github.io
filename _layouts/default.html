@@ -32,5 +32,17 @@
     </div>
 
     {% include scripts.html %}
+    
+    <script>
+      // Fix raw data appearing at the top of the page
+      document.addEventListener('DOMContentLoaded', function() {
+        const bodyText = document.body.innerHTML;
+        if (bodyText.includes('avatar') && bodyText.includes('kanodiaayush.png')) {
+          // Look for and remove the raw data hash
+          const rawDataRegex = /""\s+"avatar"=>"\/assets\/images\/kanodiaayush\.png".+?\}\}\}"/;
+          document.body.innerHTML = document.body.innerHTML.replace(rawDataRegex, '');
+        }
+      });
+    </script>
   </body>
 </html>
