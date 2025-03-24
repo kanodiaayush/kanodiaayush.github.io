@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-I think of myself as an engineer, scientist and economist (maybe in that order; engineer took first place from scientist thanks to the Large Language Models revolution).
+I think of myself as an engineer, scientist and economist (maybe in that order; engineer took first place from scientist thanks to the large language models revolution).
 
 ## Interests
 
