@@ -21,6 +21,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+/* Override sidebar opacity */
+.sidebar {
+  opacity: 1 !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
 /* Customize author profile - only show photo, center it, and enlarge it */
 .author__avatar {
   display: block;
@@ -31,6 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 .author__avatar img {
   max-width: 180px;  /* Enlarge photo (default is usually around 110px) */
   border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #f2f3f3; /* Match border color from theme */
 }
 
 /* Hide other elements in the author profile */
