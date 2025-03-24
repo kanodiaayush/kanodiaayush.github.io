@@ -135,6 +135,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/kanodiaayush"
+    - label: "X"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://x.com/ayushkanodia"
 
 
 # Reading Files

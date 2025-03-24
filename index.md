@@ -1,9 +1,8 @@
 ---
 layout: home
 author_profile: true
+title: Hi!
 ---
-
-## Hello!
 
 My name is Ayush Kanodia. I co-founded and am working on a startup building an AI-augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.
 
@@ -22,7 +21,7 @@ In reverse chronological order:
 ## Education
 
 - PhD - Computer Science, [Stanford University](https://www.stanford.edu/)
-- MA - Economics, earned concurrently at Stanford
+- MA - Economics, earned concurrently with PhD CS at Stanford
 - B.Tech - Computer Science with Honors and Minor in Applied Statistics and Informatics, [IIT Bombay, India](https://en.wikipedia.org/wiki/IIT_Bombay)
 - High School - [Don Bosco School Park Circus](https://en.wikipedia.org/wiki/Don_Bosco_School,_Park_Circus), Kolkata, India
 

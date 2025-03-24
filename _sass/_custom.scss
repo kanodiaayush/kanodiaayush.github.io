@@ -19,4 +19,21 @@ body {
 /* Keep headings bold but slightly lighter */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
+}
+
+/* Customize author profile - only show photo, center it, and enlarge it */
+.author__avatar {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.author__avatar img {
+  max-width: 180px;  /* Enlarge photo (default is usually around 110px) */
+  border-radius: 50%;
+}
+
+/* Hide other elements in the author profile */
+.author__content, .author__urls-wrapper {
+  display: none;
 } 

@@ -6,6 +6,7 @@ author: "Ayush Kanodia"
 categories: [personal, tips]
 author_profile: true
 toc: false
+hidden: true
 ---
 
 These are some notes from my passport renewal in early 2021; these may be helpful to other Indian students at Stanford (perhaps other nationalities, other universities etc too)
