@@ -209,14 +209,4 @@
 
 <!-- Favicon and custom head links go here -->
 
-<!-- Google Analytics -->
-{% if jekyll.environment == 'production' and site.analytics.provider == 'google-gtag' %}
-  {% include analytics-providers/google-gtag.html %}
-{% endif %}
-
-<!-- Plausible and PostHog -->
-{% if jekyll.environment == 'production' and site.analytics.provider == 'custom' %}
-  {% include analytics-providers/custom.html %}
-{% endif %}
-
 <!-- Insert any custom code that should go in the <head> tag here --> 
