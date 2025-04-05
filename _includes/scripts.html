@@ -18,7 +18,10 @@
   {%- endcase -%}
 {% endif %}
 
-{% include analytics.html %}
+{% comment %}
+  Analytics is now loaded in head/custom.html
+  {% include analytics.html %}
+{% endcomment %}
 {% include /comments-providers/scripts.html %}
 
 {% if site.after_footer_scripts %}
