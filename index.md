@@ -4,6 +4,8 @@ author_profile: true
 title: Hi!
 ---
 
+<img src="/assets/images/custom/kanodiaayush-large.png" alt="Ayush Kanodia" style="width: 320px; height: auto; border-radius: 50%; margin: 0 auto 1.5em; display: block; border: 3px solid #f5e6d3; padding: 5px;">
+
 My name is Ayush Kanodia. I co-founded and am working on a startup building an AI-augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.
 
 During my PhD at Stanford University, I was advised by the awesome [Susan Athey](https://athey.people.stanford.edu/) and co-advised by [Emma Brunskill](https://cs.stanford.edu/people/ebrun/), working at the intersection of Machine Learning and Economics. I also earned an MA in Economics from Stanford. Before that, I did a B.Tech in Computer Science from IIT Bombay, India.

@@ -28,18 +28,27 @@ h1, h2, h3, h4, h5, h6 {
   transition: none !important;
 }
 
-/* Customize author profile - only show photo, center it, and enlarge it */
-.author__avatar {
-  display: block;
-  width: 100%;
+/* Basic layout structure - make sure the image doesn't overlap text */
+.page__content {
+  position: relative;
+}
+
+/* Float the image to the right with proper margins */
+.page__content .author__avatar {
+  float: right;
+  width: auto;
+  margin: 0 0 2em 2em;
   text-align: center;
 }
 
-.author__avatar img {
-  max-width: 180px;  /* Enlarge photo (default is usually around 110px) */
+.page__content .author__avatar img {
+  max-width: 280px !important;
+  width: 280px !important;
+  height: auto !important;
   border-radius: 50%;
   padding: 5px;
-  border: 1px solid #f2f3f3; /* Match border color from theme */
+  border: 1px solid #f2f3f3;
+  display: block;
 }
 
 /* Hide other elements in the author profile */
@@ -47,12 +56,44 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+/* Hide the default author profile image in the sidebar */
+.sidebar .author__avatar {
+  display: none !important;
+}
+
+/* But allow our custom image to display */
+.page__content img[src*="kanodiaayush-large.png"] {
+  display: block !important;
+}
+
+/* Override masthead background color */
+.masthead {
+  background-color: #f5e6d3;  /* Match the beige color from your site */
+}
+
+.masthead__inner-wrap {
+  background-color: #f5e6d3;
+}
+
+.greedy-nav {
+  background-color: transparent !important;
+}
+
 /* Mobile responsiveness fixes */
 @media (max-width: 768px) {
-  /* Fix masthead spacing */
+  /* Fix masthead spacing and colors */
+  .masthead {
+    position: sticky;
+    top: 0;
+    background-color: #f5e6d3;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
   .masthead__inner-wrap {
     padding: 0.5em 1em;
     justify-content: space-between;
+    background-color: #f5e6d3;
   }
   
   /* Adjust navigation menu for mobile */
@@ -67,6 +108,45 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 0.5em;
   }
   
+  /* On mobile, force the image to display as a block above text */
+  .page__content .author__avatar {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 1em auto 2em;
+    text-align: center;
+  }
+
+  .page__content .author__avatar img {
+    max-width: 220px !important;
+    width: 220px !important;
+    height: auto !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Ensure text doesn't wrap around image on mobile */
+  .page__content p {
+    clear: both;
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  
+  /* Center heading and add spacing */
+  .page__content h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    width: 100%;
+    clear: both;
+  }
+  
+  /* Ensure proper content flow on mobile */
+  .page__content {
+    padding: 0.5em;
+    display: block;
+  }
+  
   /* Make sure text fits on mobile screens */
   .page__content p, 
   .page__content li {
@@ -74,12 +154,6 @@ h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
     font-size: 1em;
     line-height: 1.6;
-  }
-  
-  /* Adjust profile image size for mobile */
-  .author__avatar img {
-    max-width: 120px;
-    margin-bottom: 1em;
   }
   
   /* Fix text column width and padding on mobile */
@@ -94,10 +168,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 4px;
-    background-color: #f8f9fa;
+    background-color: transparent;
     margin-right: 0;
   }
-  
+
   /* Make hamburger menu icon more visible */
   .navicon,
   .navicon:before,
@@ -105,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #000;
     height: 2px;
   }
-  
+
   /* Fix spacing for navicon */
   .navicon:before {
     top: -6px;
@@ -114,17 +188,26 @@ h1, h2, h3, h4, h5, h6 {
   .navicon:after {
     bottom: -6px;
   }
-  
-  /* Fix the layout on small screens */
-  .initial-content {
-    clear: both;
-    padding: 0.5rem 1rem;
+
+  /* Fix dropdown menu background */
+  .greedy-nav .hidden-links {
+    background-color: #f5e6d3;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+  }
+
+  .greedy-nav .hidden-links a {
+    color: #000;
+  }
+
+  .greedy-nav .hidden-links a:hover {
+    background-color: rgba(0,0,0,0.05);
   }
   
-  /* Ensure no horizontal scrolling */
-  html, body {
-    overflow-x: hidden;
-    max-width: 100%;
+  /* Ensure proper spacing between elements */
+  .initial-content {
+    padding: 0.5rem 1rem;
+    overflow: visible;
   }
   
   /* Improve typography on mobile */
@@ -139,66 +222,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0.5em;
   }
   
-  /* Force proper content flow on mobile and separate image from text */
-  .page__content {
-    display: block;  /* Changed from flex to block for better control */
-    padding: 0 1em;
-    margin-top: 1em;
-  }
-  
-  /* Ensure author avatar appears separately */
-  .author__avatar {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto 2em;
-  }
-  
-  .author__avatar img {
-    max-width: 120px;
-    margin: 0 auto;
-    display: block;
-  }
-  
-  /* Center the Hi! text */
-  .page__content h1 {
-    text-align: center;
-    margin-bottom: 1.5em;
-  }
-  
-  /* Add space between elements */
-  .page__content > p {
-    clear: both;
-    display: block;
-    margin-bottom: 1em;
-  }
-  
-  /* Ensure image and text don't float next to each other */
-  .initial-content {
-    clear: both;
-    padding: 0.5rem 1rem;
-    overflow: hidden;
-  }
-  
-  /* Additional fix to prevent image/text overlap */
-  img {
+  /* Ensure no horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
     max-width: 100%;
-    height: auto;
-  }
-  
-  /* Ensure navbar stays at top */
-  .masthead {
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    z-index: 10;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  /* Fix the dropdown menu on mobile */
-  .greedy-nav .hidden-links {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   }
   
   /* Improve experience for links within the navigation */
@@ -206,45 +233,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.25em 0;
   }
   
-  /* Add more space around paragraphs */
-  p {
-    margin-bottom: 1em;
-  }
-  
   /* Ensure the hamburger is properly visible */
   .greedy-nav__toggle .navicon {
     margin: 0;
   }
   
-  /* Fix the specific image placement inside the main content */
-  .page__content .author__avatar {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto 2.5em;
-    padding: 0;
-    float: none;
-    clear: both;
-  }
-  
-  /* Ensure all avatar images are properly sized and centered */
-  .page__content .author__avatar img {
-    max-width: 130px;
-    margin: 0 auto;
-    display: block;
-    float: none;
-  }
-  
-  /* Create visual separation between sections */
-  .page__content:before,
+  /* Explicitly clear floats */
   .page__content:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Ensure text has proper space from the image */
-  .page__content h1 + .author__avatar + p {
-    margin-top: 2em;
   }
 } 
