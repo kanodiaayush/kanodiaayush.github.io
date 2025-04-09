@@ -45,4 +45,131 @@ h1, h2, h3, h4, h5, h6 {
 /* Hide other elements in the author profile */
 .author__content, .author__urls-wrapper {
   display: none;
+}
+
+/* Mobile responsiveness fixes */
+@media (max-width: 768px) {
+  /* Fix masthead spacing */
+  .masthead__inner-wrap {
+    padding: 0.5em 1em;
+    justify-content: space-between;
+  }
+  
+  /* Adjust navigation menu for mobile */
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjust spacing around site title */
+  .site-title {
+    font-size: 1.1em;
+    padding-right: 0.5em;
+  }
+  
+  /* Make sure text fits on mobile screens */
+  .page__content p, 
+  .page__content li {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Adjust profile image size for mobile */
+  .author__avatar img {
+    max-width: 120px;
+    margin-bottom: 1em;
+  }
+  
+  /* Fix text column width and padding on mobile */
+  .page {
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Improve menu button visibility and styling */
+  .greedy-nav__toggle {
+    margin-left: auto;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    margin-right: 0;
+  }
+  
+  /* Make hamburger menu icon more visible */
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: #000;
+    height: 2px;
+  }
+  
+  /* Fix spacing for navicon */
+  .navicon:before {
+    top: -6px;
+  }
+  
+  .navicon:after {
+    bottom: -6px;
+  }
+  
+  /* Fix the layout on small screens */
+  .initial-content {
+    padding: 0.5rem;
+  }
+  
+  /* Ensure no horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
+  /* Improve typography on mobile */
+  h1 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+    margin-top: 0.5em;
+  }
+  
+  /* Fix padding for content area */
+  .page__content {
+    padding: 0;
+    margin-top: 1em;
+  }
+  
+  /* Ensure navbar stays at top */
+  .masthead {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Fix the dropdown menu on mobile */
+  .greedy-nav .hidden-links {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  /* Improve experience for links within the navigation */
+  .visible-links li {
+    padding: 0.25em 0;
+  }
+  
+  /* Add more space around paragraphs */
+  p {
+    margin-bottom: 1em;
+  }
+  
+  /* Ensure the hamburger is properly visible */
+  .greedy-nav__toggle .navicon {
+    margin: 0;
+  }
 } 
