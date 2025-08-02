@@ -1,14 +1,25 @@
 ---
-layout: home
-author_profile: true
+layout: page
 title: Hi!
 ---
 
-<img src="/assets/images/custom/kanodiaayush-large.png" alt="Ayush Kanodia" style="width: 320px; height: auto; border-radius: 50%; margin: 0 auto 1.5em; display: block; border: 3px solid #f5e6d3; padding: 5px;">
-
-My name is Ayush Kanodia. I co-founded and am working on a startup building an AI-augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.
-
-During my PhD at Stanford University, I was advised by the awesome [Susan Athey](https://athey.people.stanford.edu/) and co-advised by [Emma Brunskill](https://cs.stanford.edu/people/ebrun/), working at the intersection of Machine Learning and Economics. I also earned an MA in Economics from Stanford. Before that, I did a B.Tech in Computer Science from IIT Bombay, India.
+<div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1;">
+    <p>My name is Ayush Kanodia. I co-founded and am working on a startup building an AI-augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.</p>
+    
+    <p>During my PhD at Stanford University, I was advised by the awesome <a href="https://athey.people.stanford.edu/">Susan Athey</a> and co-advised by <a href="https://cs.stanford.edu/people/ebrun/">Emma Brunskill</a>, working at the intersection of Machine Learning and Economics. I also earned an MA in Economics from Stanford. Before that, I completed a B.Tech in Computer Science from IIT Bombay, India.</p>
+    
+    <p style="margin-top: 1.5rem;">
+      <a href="https://linkedin.com/in/kanodiaayush" target="_blank">LinkedIn</a> | 
+      <a href="https://x.com/AyushKanodia" target="_blank">X (Twitter)</a> | 
+      <a href="https://scholar.google.com/citations?user=VmnGuS0AAAAJ&hl=en" target="_blank">Google Scholar</a>
+    </p>
+  </div>
+  
+  <div style="flex-shrink: 0;">
+    <img src="/assets/images/custom/kanodiaayush-large.png" alt="Ayush Kanodia" style="width: 280px; height: auto; border-radius: 8px;">
+  </div>
+</div>
 
 ## Experience
 

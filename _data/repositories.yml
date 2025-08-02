@@ -1,0 +1,11 @@
+github_users:
+  - kanodiaayush
+
+repo_description_lines_max: 2
+
+github_repos:
+  - grf-labs/policytree
+  - gsbDBI/torch-choice
+  - gsbDBI/bemb
+  - kanodiaayush/make-doc-listenable
+  - kanodiaayush/kanodiaayush.github.io
