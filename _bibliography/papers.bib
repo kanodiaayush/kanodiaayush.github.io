@@ -3,11 +3,11 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{du2023torch,
+@article{du2025torch,
   title={Torch-Choice: A PyTorch Package for Large-Scale Choice Modelling with Python},
   author={Du, Tianyu and Kanodia, Ayush and Athey, Susan},
   journal={arXiv preprint arXiv:2304.01906},
-  year={2023},
+  year={2025},
   selected={true},
   arxiv={2304.01906},
   abstract={We present Torch-Choice, a comprehensive Python package built on PyTorch for large-scale choice modeling using discrete choice models.}
@@ -95,4 +95,16 @@
   pages={49--66},
   year={2021},
   abstract={We use text mining techniques to understand inflationary expectations in India through news media analysis.}
+}
+
+@phdthesis{kanodia2024scalable,
+  title={PhD Dissertation: Scalable solutions and applications for policy learning in machine learning and economics},
+  author={Kanodia, Ayush},
+  year={2024},
+  school={Stanford University},
+  type={Ph.D. dissertation},
+  address={Stanford, California},
+  url={https://purl.stanford.edu/ym855zc5989},
+  selected={true},
+  abstract={Counterfactual policies derived from models of human behavior estimated from data are used for firm decision-making and economic policy-making. This dissertation presents work at the intersection of Machine Learning and Economics which advances our ability to estimate these models, and learn and evaluate policies derived from them. We develop new methods, and use this novel methodology to investigate diverse domain specific research questions. I first focus on methods. I discuss torch-choice, a library for flexible, fast choice modeling with PyTorch, which implements the multinomial logit and nested logit models, designed for both estimation and prediction. torch-choice allows researchers to scale these choice models to very large dataset sizes. Following this, I discuss policytree, an algorithm which learns decision tree policies via globally optimal search. policytree asymptotically improves upon the current state of the art tree based policy optimization algorithm. I then move to domain specific research. In the context of demand modeling in retail, I present research which evaluates the economic value of data used to estimate demand models to perform counterfactual retail pricing. Using a shopping panel dataset, we develop a hierarchical Bayesian Matrix Factorization model, produce a customer level personalized pricing policy from it, and estimate its profitability from observational data. We compare the profitability of policies derived from models of different sizes, estimated over different amounts of training data varied over different dimensions. Second, we build a personalized recommendation system for children's reading in an education context. Through an A/B experiment, we show that serving personalized recommendations increases the consumption of reading content, compared to a baseline system where human content editors select stories. We also show that heavy users with long histories of content interactions who prefer niche content benefit more than infrequent, newer users who like popular content. Finally, in the context of labor modeling, I introduce LABOR-LLM, a transfer learning approach which adapts a pre-trained Large Language Model (LLM) to the task of predicting an individual's next job. Our approach outperforms both traditional econometric and state of the art specialized labor transformer models, allowing us to bypass large scale model training on resume datasets, demonstrating that LLMs can serve as base models for both labor market and potentially other econometric modeling tasks.}
 }
