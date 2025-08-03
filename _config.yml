@@ -39,37 +39,40 @@ repo_theme_dark: dark           # https://github.com/primer/github-syntax-dark
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
-
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
+footer_fixed: true
 
 # Dimensions
 max_width: 800px
 
-# TODO: add layout settings (single page vs. multi-page)
+# TODO: add layout settings (single page vs multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_schema_org: false
+serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_schema_org: false # Include Schema.org in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: kanodiaayush
+github_username: kanodiaayush # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: ayush-kanodia
-googlescholar_id: # your Google Scholar ID
+linkedin_username: kanodiaayush # your LinkedIn user name
+telegram_username: # your Telegram user name
+scholar_userid: # your Google Scholar ID
+semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -92,13 +95,13 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/channel/[youtube_id])
+youtube_id: # your youtube channel id (youtube.com/channel/your-channel-id)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The best way to reach me is through email.
+  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -114,9 +117,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
+blog_name: al-folio # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Thoughts on technology, research, and life
+blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -206,19 +209,12 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
-  # - jekyll-get-json
-  # - jekyll-imagemagick
-  # - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  # - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-scholar
   - jekyll-sitemap
   - jekyll-toc
-  # - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -280,10 +276,12 @@ external_links:
   target: _blank
   exclude:
 
+
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
+# DISABLED TEMPORARILY TO FIX BUILD
 imagemagick:
   enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
@@ -308,80 +306,65 @@ imagemagick:
 #     # configuration, see https://github.com/zhustec/jekyll-diagrams.
 #     # feel free to comment out this section if not using jekyll diagrams.
 
+
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-enable_cronitor_analytics: false  # enables cronitor RUM analytics
+enable_cronitor_analytics:  false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
-enable_masonry:             true   # enables automatic project cards arrangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
+enable_masonry:              true   # enables automatic project cards arrangement
+enable_math:                 true   # enables math typesetting (uses MathJax)
+enable_tooltips:             false  # enables automatic tooltip links generated
+                                     # for each section titles on pages and posts
+enable_darkmode:             true   # enables switching between light/dark modes
+enable_navbar_social:        false  # enables displaying social links in the
+                                     # navbar on the about page
+enable_project_categories:   true   # enables categorization of projects into
+                                     # multiple categories
+enable_medium_zoom:          true   # enables image zoom feature (as on medium.com)
+enable_progressbar:          true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
 
-third_party_libraries:
-  download: false # if true, download the versions of the libraries specified below and use the downloaded files
-  bootstrap-table:
-    integrity:
-      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
-      js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
-      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
-    version: "1.22.1"
-  jquery:
-    integrity:
-      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    url:
-      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
-    version: "3.6.0"
-  mathjax:
-    integrity:
-      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
-    local:
-      fonts: "output/chtml/fonts/woff-v2/"
-    url:
-      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
-    version: "3.2.0"
-  masonry:
-    integrity:
-      js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
-    url:
-      js: "https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
-    version: "4.2.2"
-  mdb:
-    integrity:
-      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
-      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
-    version: "4.20.0"
-  medium_zoom:
-    integrity:
-      js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
-    url:
-      js: "https://cdn.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js"
-    version: "1.1.0"
+bootstrap:
+  min_version: "4.6.0"
 
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
+jquery:
+  min_version: "3.6.0"
+  integrity_hash: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it will be available in site.data.resume
+mathjax:
+  version: "3.2.0"
+
+masonry:
+  version: "4.2.2"
+  integrity_hash: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+
+mdb:
+  version: "4.20.0"
+  integrity_hash:
+    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+
+medium_zoom:
+  version: "1.0.8"
+  integrity_hash: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
+
+photoswipe:
+  version: "4.1.3"
+  integrity_hash:
+    css: "sha256-AC2UWodlCwkHbRhTGxEy11D+Kl2fCyR/dW4m+bvbEWI="
+    js: "sha256-j5Z/2xLPjIBNj2PZ4BdNSyN91bBMcxJr4Gm7LWrWI3U="
+
+progressbar:
+  version: "1.1.0"
+  integrity_hash: "sha256-NgVLOL/3NSgLiVdL3N0LEZDeBKZFDRIS2JBKNHllJGQ="
+
+simple_jekyll_search:
+  version: "1.10.0"
+  integrity_hash: "sha256-2ByMpDbNHHjmGONIvDp24jRE8O37Sj/qmQPzrfzFRWs="
