@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>PhD Computer Science, MA Economics</p>
     <p>Stanford University</p>
-    <p>ayush@kanodiaayush.com</p>
+    <p>&lt;lastname&gt;&lt;firstname&gt;@gmail.com</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
