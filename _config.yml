@@ -44,7 +44,7 @@ repo_theme_dark: dark           # https://github.com/primer/github-syntax-dark
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
