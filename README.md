@@ -273,6 +273,16 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
 
 For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
 
+### Quick Start: Fresh Local Deploy
+
+For a fresh local deployment with live reload:
+
+```bash
+cd /Users/akanodia/kanodiaayush.github.io && rm -rf _site && bundle exec jekyll build 2>&1 && bundle exec jekyll serve --port 4000 --livereload 2>&1
+```
+
+This will clean build your site and serve it on `http://localhost:4000` with automatic browser refresh on file changes.
+
 ## Customizing
 
 For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).

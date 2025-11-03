@@ -128,6 +128,21 @@ $ bundle exec jekyll serve
 
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
 
+### Fresh Local Deploy with LiveReload
+
+For a fresh local deployment that cleans the build directory and runs with live reload (automatically rebuilds when files change):
+
+```bash
+cd /Users/akanodia/kanodiaayush.github.io && rm -rf _site && bundle exec jekyll build 2>&1 && bundle exec jekyll serve --port 4000 --livereload 2>&1
+```
+
+This command will:
+1. Navigate to your site directory
+2. Remove the existing `_site` build directory for a clean build
+3. Build the site from scratch
+4. Serve it on port 4000 with live reload enabled
+5. Automatically refresh your browser when you make changes to files
+
 ## Deployment
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
