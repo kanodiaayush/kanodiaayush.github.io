@@ -98,19 +98,19 @@ h1, h2, h3, h4, h5, h6 {
 
 // Subtle, elegant links
 a {
-  color: #333 !important;
+  color: var(--global-theme-color) !important;
   text-decoration: none;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--global-theme-color);
   transition: all 0.2s ease;
-  
+
   &:hover {
-    color: #000 !important;
-    border-bottom-color: #000;
+    color: var(--global-hover-color) !important;
+    border-bottom-color: var(--global-hover-color);
     text-decoration: none;
   }
-  
+
   &:visited {
-    color: #555 !important;
+    color: var(--global-theme-color) !important;
   }
 }
 
@@ -130,11 +130,11 @@ nav a,
 .post-list a,
 .post-title {
   border-bottom: none !important;
-  color: #000 !important;
+  color: var(--global-text-color) !important;
   font-weight: 500;
-  
+
   &:hover {
-    color: #666 !important;
+    color: var(--global-hover-color) !important;
     border-bottom: none !important;
   }
 }
