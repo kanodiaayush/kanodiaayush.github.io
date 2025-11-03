@@ -2,16 +2,16 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: My GitHub repositories and open source contributions.
+description: 
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 {% if site.data.repositories.github_repos %}
 
-## Featured Repositories
+<p style="text-align: center;">Here are some selected GitHub repositories of mine - drawn both from research and personal projects.</p>
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-center align-items-center">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}

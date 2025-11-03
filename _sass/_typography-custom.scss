@@ -1,0 +1,162 @@
+/*******************************************************************************
+ * Custom Typography and Layout Overrides
+ * Narrower content, Inter font, subtle links
+ ******************************************************************************/
+
+// Import Space Grotesk (headings) and Inter (body) - design-forward founder aesthetic
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+// Body: Inter - clean, readable
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-weight: 400;
+  line-height: 1.65;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Headings: Space Grotesk - friendly and crisp with personality
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+// Narrow content width for all pages - 7-10 words per line
+.container {
+  max-width: 550px !important;
+}
+
+// Widen container for repositories page
+.container:has(.repositories) {
+  max-width: 1200px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Center repositories container
+.repositories {
+  justify-content: center !important;
+}
+
+// Ensure repository cards display in grid on wider screens
+@media (min-width: 768px) {
+  .repositories.d-flex {
+    flex-direction: row !important;
+  }
+
+  .repositories .repo {
+    max-width: 48% !important;
+    flex: 0 0 48%;
+  }
+}
+
+// Override Bootstrap flex-column on medium and up
+@media (min-width: 768px) {
+  .repositories.flex-md-row {
+    flex-direction: row !important;
+  }
+}
+
+// Force article to use block layout, not flex (for all pages)
+.post article,
+.post article > div,
+.post article > div > div {
+  display: block !important;
+  flex-direction: column !important;
+}
+
+// Make absolutely sure the parent of images uses block layout
+.post article div {
+  display: block !important;
+}
+
+// Exception: Allow repositories to use flex layout
+.post article .repositories {
+  display: flex !important;
+}
+
+// Center blog post titles
+.post h1,
+.post-title,
+.post-header h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+// Add space after title
+.post-header {
+  margin-bottom: 2.5rem;
+}
+
+.post-content {
+  margin-top: 2rem;
+}
+
+// Profile image styling (removed hide rule)
+
+// Subtle, elegant links
+a {
+  color: #333 !important;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    color: #000 !important;
+    border-bottom-color: #000;
+    text-decoration: none;
+  }
+  
+  &:visited {
+    color: #555 !important;
+  }
+}
+
+// Navigation links - no underline
+nav a,
+.nav-link,
+.navbar a,
+.masthead a {
+  border-bottom: none !important;
+  
+  &:hover {
+    border-bottom: none !important;
+  }
+}
+
+// Post list links - clean style
+.post-list a,
+.post-title {
+  border-bottom: none !important;
+  color: #000 !important;
+  font-weight: 500;
+  
+  &:hover {
+    color: #666 !important;
+    border-bottom: none !important;
+  }
+}
+
+// Override the purple theme color with subtle gray
+:root {
+  --global-theme-color: #333 !important;
+  --global-hover-color: #000 !important;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #ddd !important;
+  --global-hover-color: #fff !important;
+}
+
+// Social links
+.social a {
+  border-bottom: none !important;
+}
+
+// Better spacing
+p {
+  margin-bottom: 1.5em;
+}
+

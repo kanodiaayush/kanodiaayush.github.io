@@ -1,25 +1,21 @@
 ---
 layout: page
-title: Hi!
+title: About
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
-    <p>My name is Ayush Kanodia. I co-founded and am working on a startup building an AI-augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.</p>
-    
-    <p>During my PhD at Stanford University, I was advised by the awesome <a href="https://athey.people.stanford.edu/">Susan Athey</a> and co-advised by <a href="https://cs.stanford.edu/people/ebrun/">Emma Brunskill</a>, working at the intersection of Machine Learning and Economics. I also earned an MA in Economics from Stanford. Before that, I completed a B.Tech in Computer Science from IIT Bombay, India.</p>
-    
-    <p style="margin-top: 1.5rem;">
-      <a href="https://scholar.google.com/citations?user=VmnGuS0AAAAJ&hl=en" target="_blank">Google Scholar</a> |
-      <a href="https://x.com/AyushKanodia" target="_blank">X (Twitter)</a> | 
-      <a href="https://linkedin.com/in/kanodiaayush" target="_blank">LinkedIn</a>
-    </p>
-  </div>
-  
-  <div style="flex-shrink: 0;">
-    <img src="/assets/images/custom/kanodiaayush-large.png" alt="Ayush Kanodia" style="width: 280px; height: auto; border-radius: 8px;">
-  </div>
+<div style="text-align: center; margin-bottom: 3rem;">
+  <img src="/assets/images/custom/kanodiaayush-large.png" alt="Ayush Kanodia" style="width: 280px; height: auto; border-radius: 8px;">
 </div>
+
+<p>My name is Ayush Kanodia. I co-founded and am working on a startup building an AI-augmented knowledge consumption experience. I'm focused on new business models that emerge from building compelling product experiences using AI and large recommendation systems.</p>
+    
+<p>During my PhD at Stanford University, I was advised by the awesome <a href="https://athey.people.stanford.edu/">Susan Athey</a> and co-advised by <a href="https://cs.stanford.edu/people/ebrun/">Emma Brunskill</a>, working at the intersection of Machine Learning and Economics. I also earned an MA in Economics from Stanford. Before that, I completed a B.Tech in Computer Science from IIT Bombay, India.</p>
+
+<p style="margin-top: 1.5rem;">
+  <a href="https://scholar.google.com/citations?user=VmnGuS0AAAAJ&hl=en" target="_blank">Google Scholar</a> |
+  <a href="https://x.com/AyushKanodia" target="_blank">X (Twitter)</a> | 
+  <a href="https://linkedin.com/in/kanodiaayush" target="_blank">LinkedIn</a>
+</p>
 
 ## Experience
 

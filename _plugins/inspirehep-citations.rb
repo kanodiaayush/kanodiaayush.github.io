@@ -1,10 +1,25 @@
-require "active_support/all"
 require 'net/http'
 require 'json'
 require 'uri'
 
 module Helpers
-  extend ActiveSupport::NumberHelper
+  def self.number_to_human(number, options = {})
+    return "0" if number.nil? || number == 0
+    
+    units = options[:units] || { :thousand => 'K', :million => 'M', :billion => 'B' }
+    precision = options[:precision] || 2
+    
+    case
+    when number >= 1_000_000_000
+      "#{(number / 1_000_000_000.0).round(precision)}#{units[:billion]}"
+    when number >= 1_000_000
+      "#{(number / 1_000_000.0).round(precision)}#{units[:million]}"
+    when number >= 1_000
+      "#{(number / 1_000.0).round(precision)}#{units[:thousand]}"
+    else
+      number.to_s
+    end
+  end
 end
 
 module Jekyll

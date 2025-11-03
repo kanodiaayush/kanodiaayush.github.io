@@ -1,12 +1,12 @@
 ---
-layout: single
+layout: post
 title: "Markdown Programming Language"
 date: 2025-03-21
 author: Ayush Kanodia
 categories: markdown programming
 usemathjax: true
-author_profile: true
-toc: true
+_styles: >
+  .post-header { display: none; }
 ---
 
 # Is Markdown the new programming language?
